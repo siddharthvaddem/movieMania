@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero is-danger is-bold ">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            MOVIE MANIA
+            <span class="icon">
+              <i class="fas fa-ticket-alt"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+     <div class="columns">
+       <div class="column">
+         <div id="left-autocomplete"></div>
+         <div id="left-summary"></div>
+       </div>
+       <div class="column">
+         <div id="right-autocomplete"></div>
+         <div id="right-summary"></div>
+       </div>
+     </div>
+     <div class="column is-half notification is-info tutorial">
+      <h1 class="title">Search for a Movie on Both Sides</h1>
+      <p xlass="subtitle">Let the Reel Wars begin</p>
+     </div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
